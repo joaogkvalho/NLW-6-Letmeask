@@ -28,9 +28,6 @@ export function Room() {
     const { title, questions } = useRoom(roomId)
 
 
-
-
-
     async function handleSendQuestion(event: FormEvent) {
         event.preventDefault()
 
