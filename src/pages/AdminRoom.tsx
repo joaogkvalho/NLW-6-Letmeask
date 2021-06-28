@@ -16,8 +16,6 @@ import '../styles/room.scss'
 
 
 
-
-
 type RoomParams = {
     id: string
 }
