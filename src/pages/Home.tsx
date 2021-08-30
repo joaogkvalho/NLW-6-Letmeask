@@ -10,6 +10,12 @@ import '../styles/auth.scss'
 import { Button } from '../components/Button'
 import { database } from '../services/firebase'
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 64aaec01ac2f67601cadba5cb9b46e1e13a0a132
 export function Home() {
     const history = useHistory()
     const { signInWithGoogle, user } = useAuth()
